@@ -1,0 +1,132 @@
+@import url("https://rsms.me/inter/inter-ui.css");
+
+@font-face {
+    font-family: "Whitney";
+    src: url("https://constant.myntassets.com/www/fonts/WhitneyHTF-Book.eot");
+    src: url("https://constant.myntassets.com/www/fonts/WhitneyHTF-Book.eot?#iefix")
+    format("embedded-opentype"),
+    url("https://constant.myntassets.com/www/fonts/WhitneyHTF-Book.woff")
+    format("woff"),
+    url("https://constant.myntassets.com/www/fonts/WhitneyHTF-Book.ttf")
+    format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Whitney";
+    src: url("https://constant.myntassets.com/www/fonts/WhitneyHTF-SemiBold.eot");
+    src: url("https://constant.myntassets.com/www/fonts/WhitneyHTF-SemiBold.eot?#iefix")
+    format("embedded-opentype"),
+    url("https://constant.myntassets.com/www/fonts/WhitneyHTF-SemiBold.woff")
+    format("woff"),
+    url("https://constant.myntassets.com/www/fonts/WhitneyHTF-SemiBold.ttf")
+    format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+#map {
+    height: 180px;
+    position: relative;
+}
+
+#map img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: contain;
+    transition: all 0.5s;
+    -webkit-animation: zoom-fade-small 1s ease forwards;
+    animation: zoom-fade-small 1s ease forwards;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Whitney, sans-serif;
+}
+
+body {
+    background: #e3fdfd;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 15px 15px 15px;
+}
+
+.container .card {
+    display: flex;
+    width: 33.33%;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .container .card {
+        width: 50%;
+    }
+}
+
+.card .card-inner {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    border-radius: 1rem;
+    background: #cbf1f5;
+    padding: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px 0px 30px;
+    max-width: 100%;
+    align-items: center;
+}
+
+.header-container h1 {
+    color: #71c9ce;
+}
+
+.search {
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #a6e3e9;
+    /* border-right: none; */
+    padding: 5px;
+    height: 100%;
+    border-radius: 25px;
+    outline: none;
+    color: #71c9ce;
+    margin: unset;
+}
+
+.searchTerm:focus {
+    color: #00b4cc;
+}
+
+i.fa.fa-search {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #71c9ce;
+}
