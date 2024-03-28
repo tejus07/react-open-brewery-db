@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-open-brewery-db/static/css/main.c968e318.css",
+    "main.js": "/react-open-brewery-db/static/js/main.a6197089.js",
+    "index.html": "/react-open-brewery-db/index.html",
+    "main.c968e318.css.map": "/react-open-brewery-db/static/css/main.c968e318.css.map",
+    "main.a6197089.js.map": "/react-open-brewery-db/static/js/main.a6197089.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c968e318.css",
+    "static/js/main.a6197089.js"
+  ]
+}
