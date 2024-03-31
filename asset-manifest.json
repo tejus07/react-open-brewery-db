@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-open-brewery-db/static/css/main.c968e318.css",
-    "main.js": "/react-open-brewery-db/static/js/main.a6197089.js",
+    "main.css": "/react-open-brewery-db/static/css/main.c6e25fa6.css",
+    "main.js": "/react-open-brewery-db/static/js/main.48698e68.js",
     "index.html": "/react-open-brewery-db/index.html",
-    "main.c968e318.css.map": "/react-open-brewery-db/static/css/main.c968e318.css.map",
-    "main.a6197089.js.map": "/react-open-brewery-db/static/js/main.a6197089.js.map"
+    "main.c6e25fa6.css.map": "/react-open-brewery-db/static/css/main.c6e25fa6.css.map",
+    "main.48698e68.js.map": "/react-open-brewery-db/static/js/main.48698e68.js.map"
   },
   "entrypoints": [
-    "static/css/main.c968e318.css",
-    "static/js/main.a6197089.js"
+    "static/css/main.c6e25fa6.css",
+    "static/js/main.48698e68.js"
   ]
 }
