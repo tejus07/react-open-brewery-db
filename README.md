@@ -9,9 +9,7 @@ This project is a React application that utilizes the Open Brewery DB API to fet
 - Implements data binding
 - Utilizes destructuring for cleaner code
 - Includes at least two meaningful React components
-- Utilizes CSS in two ways:
-  - CSS created using JSX
-  - External styles.css for class-based styling
+- Responsive UI
 - Implements search functionality for brewery name
 
 ## Installation
